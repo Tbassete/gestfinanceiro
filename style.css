@@ -11,10 +11,12 @@ body{
 
 .span1{
     color: #820ad1;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 #cabeca{
-    width: 90vw;
+    /* width: 90vw; */
 }
 
 .navlink{
@@ -26,6 +28,11 @@ body{
     & li{
         margin-right: 5px;
     }
+}
+
+.button{
+  background-color: #820ad1;
+  border-radius: 8px;
 }
 
 .navlink:hover{
