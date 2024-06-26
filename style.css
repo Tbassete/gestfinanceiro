@@ -1,0 +1,85 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.span1{
+    color: #820ad1;
+}
+
+#cabeca{
+    width: 90vw;
+}
+
+.navlink{
+    color: #820ad1;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 5px;
+    
+    & li{
+        margin-right: 5px;
+    }
+}
+
+.navlink:hover{
+    background-color: #820ad1;
+    color: #ffffff;
+   border-radius: 8px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+#primeira{
+
+    background-image: url(assets/newbank.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 99vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    & h1{
+        color: white;
+    }
+    & p{
+        color: white;
+    }
+    & #dinheiro{
+        font-size: xx-large;
+    }
+
+}
+
+#segunda{
+    background-color: white;
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & ul{
+        display: flex;
+        flex-direction: row;
+        & li{
+
+           margin: 10px 80px 0px 80px;
+            list-style: none;
+        }
+    }
+}
